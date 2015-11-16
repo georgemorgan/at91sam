@@ -9,3 +9,7 @@ This code has been tested and confirmed to work on the AT91SAM7S processor, but 
 # Compiling
 
 To compile, use the makefile that is included. But wait! Be sure to change the varaibles such as `cc` and `nm` to the tools that you use to build for the ARM architecture if you've moved them somewhere other than their default install location. If these tools can be found in your `PATH` environment variable, the script should work automatically.
+
+# Flashing
+
+To flash this firmware to a AT91SAM device without the use of an IDE, download the appropriate `SAM-BA utility` for your host platform. Atmel provides one for Windows, but there are third party flashers out there for Mac OS and Linux.
